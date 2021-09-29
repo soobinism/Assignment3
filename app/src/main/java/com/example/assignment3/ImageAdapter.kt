@@ -9,8 +9,6 @@ import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.assignment3.ImageAdapter.ViewHolder
 
-
-
 class ImageAdapter (private val dataSet: List<Pokemon>, activity: Activity) : RecyclerView.Adapter<ViewHolder>()
 {
     var imageView: ImageView = activity.findViewById(R.id.imageView) //check this

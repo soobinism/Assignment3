@@ -2,7 +2,7 @@ package com.example.assignment3
 
 import android.content.res.Resources
 
-fun images (resources: Resources): List<Pokemon>{
+fun imageList(): List<Pokemon>{
     return listOf(
         Pokemon(
             id = 1,
