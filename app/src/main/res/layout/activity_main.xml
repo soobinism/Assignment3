@@ -11,7 +11,7 @@
         android:layout_width="408dp"
         android:layout_height="419dp"
         android:layout_marginBottom="43dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.333"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,7 +31,7 @@
         app:layout_constraintVertical_bias="0.435" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageView"
         android:layout_width="263dp"
         android:layout_height="243dp"
         android:layout_marginBottom="29dp"
